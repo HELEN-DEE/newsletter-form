@@ -44,8 +44,7 @@ p {
 }
 
 span {
-    margin-right: 10px ;
-    margin-top: 10px;
+    margin-right: 10px;
 }
 
 form {
@@ -92,6 +91,36 @@ button:hover {
     background: linear-gradient(90deg, rgba(255,122,176,1) 0%, rgba(255,118,55,1) 98%);
 }
 
+#span {
+    color: hsl(4, 100%, 67%);
+}
+
+.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* success pop-up message */
+.success {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 35%;
+    padding: 3rem;
+    color: hsl(234, 29%, 20%);
+    border-radius: 20px;
+    gap: 1rem;
+}
+
+.success h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.success img {
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width:768px) {
     body {
@@ -117,5 +146,13 @@ button:hover {
     .right img {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .success {
+        margin: 0;
+        padding: 3rem 1rem;
+        height: 100vh;
+        border-radius: 0;
+
     }
 }
