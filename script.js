@@ -1,5 +1,4 @@
 
-    
 document.addEventListener('DOMContentLoaded', function() {
     let btnClick = document.getElementById('btn')
     let emailInput = document.getElementById('email')
